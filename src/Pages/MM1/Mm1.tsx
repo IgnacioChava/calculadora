@@ -59,7 +59,7 @@ const Mm1 = () => {
       {results && (
         <div>
           <Title level={4}>Results:</Title>
-          <Text>Utilization (ρ): {results.utilizationP.toFixed(4)}</Text><br />
+          <Text>(ρ): {results.utilizationP.toFixed(4)}</Text><br />
           <Text>(L): {results.avgNumberInSystemL.toFixed(4)}</Text><br />
           <Text>(W): {results.avgTimeInSystemW.toFixed(4)}</Text><br />
           <Text>(Lq): {results.avgNumberInQueueLq.toFixed(4)}</Text><br />

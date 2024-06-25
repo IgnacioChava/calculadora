@@ -58,13 +58,13 @@ const Mm1: React.FC = () => {
     <Card title="M/M/m Calculadora" style={{ maxWidth: 600, margin: 'auto', marginTop: 50 }}>
       
       <Form layout="vertical">
-        <Form.Item label="Number of Servers (m)">
+        <Form.Item label="(m)">
           <InputNumber min={1} value={m ?? 1} onChange={setM} />
         </Form.Item>
-        <Form.Item label="Service Rate (μ)">
+        <Form.Item label="(μ)">
           <InputNumber min={0} value={mu ?? 0} onChange={setMu} />
         </Form.Item>
-        <Form.Item label="Arrival Rate (λ)">
+        <Form.Item label="(λ)">
           <InputNumber min={0} value={lambda ?? 0} onChange={setLambda} />
         </Form.Item>
         <Form.Item>

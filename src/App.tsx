@@ -12,7 +12,16 @@ function App() {
 
   return (
     <>
-      <h1>Hola mundo</h1>
+      <BrowserRouter>
+              <Routes>
+                  <Route path="/calculadora" element={<Mm1></Mm1>} />
+                       <Route path="/MMM" element={<Mmm />} />
+
+                       <Route path="/MM1Fin" element={<MM1fin />} />
+                       <Route path="/MD1" element={<MD1 />} />
+                  <Route/>
+              </Routes>
+      </BrowserRouter>
     </>
   )
 }

@@ -74,13 +74,13 @@ const MM1fin = () => {
     
     <Card title="Modelo de Cola con Población Finita (M/M/1 con Fuente Finita)" style={{ maxWidth: 600, margin: 'auto', marginTop: 50 }}>
       <Form layout="vertical">
-        <Form.Item label="λ (tasa de llegadas)">
+        <Form.Item label="λ ">
           <InputNumber min={0} value={lambda ?? 0} onChange={setLambda} />
         </Form.Item>
-        <Form.Item label="μ (tasa de servicio)">
+        <Form.Item label="μ ">
           <InputNumber min={0} value={mu ?? 0} onChange={setMu} />
         </Form.Item>
-        <Form.Item label="N (tamaño de la población)">
+        <Form.Item label="N">
           <InputNumber min={1} value={N ?? 0} onChange={setN} />
         </Form.Item>
         <Form.Item>
