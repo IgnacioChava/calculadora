@@ -89,7 +89,7 @@ const Mm1: React.FC = () => {
     <div>
       <h2>Menu</h2>
       <div>
-        <Button type='default'><Link to="/">MM1</Link></Button>
+        <Button type='default'><Link to="/calculadora">MM1</Link></Button>
         <Button type='dashed'><Link to="/MD1"> MD1 </Link></Button>
           <Button type='dashed'><Link to="/MM1Fin"> MM1 finito </Link></Button>
       </div>

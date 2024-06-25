@@ -111,7 +111,7 @@ const MM1fin = () => {
       <h2>Menu</h2>
       <div>
         <Button type='default'><Link to="/MMM">MMM</Link></Button>
-        <Button type='dashed'><Link to="/"> MM1  </Link></Button>
+        <Button type='dashed'><Link to="/calculadora"> MM1  </Link></Button>
         <Button type='dashed'><Link to="/MD1"> MD1 </Link></Button>
       </div>
     </div>

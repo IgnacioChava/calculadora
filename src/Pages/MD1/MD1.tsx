@@ -72,7 +72,7 @@ const MD1 = () => {
                 <div>
                     <Button type='dashed'><Link to="/MMM"> MMM </Link></Button>
                     <Button type='dashed'><Link to="/MM1Fin"> MM1 finito </Link></Button>
-                    <Button type='dashed'><Link to="/"> MM1 </Link></Button>
+                    <Button type='dashed'><Link to="/calculadora"> MM1 </Link></Button>
                 </div>
             </div>
 
